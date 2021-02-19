@@ -7,15 +7,15 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="anarcholib_cli",  
+    name="anarcholib_cli",
     version="1.0.0",
     description="A command line application to query and download from the Anarchist Library.",
-    long_description=long_description, 
-    long_description_content_type="text/markdown", 
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url="https://github.com/erik-tastepe/anarcholib_cli",
-    author="Erik Tastepe", 
-    author_email="erik.tastepe@gmail.com", 
-    classifiers=[  
+    author="Erik Tastepe",
+    author_email="erik.tastepe@gmail.com",
+    classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Intended Audience :: Science/Research",
         "Topic :: Education",
@@ -24,12 +24,20 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9"
+        "Programming Language :: Python :: 3.9",
     ],
-    keywords="anarchism cli",  
-    packages=find_packages(exclude=["contrib", "docs", "tests"]), 
+    keywords="anarchism cli",
+    packages=find_packages(exclude=["contrib", "docs", "tests"]),
     python_requires=">=3.5",
-    install_requires=[],  
+    install_requires=[
+        "beautifulsoup4==4.9.3",
+        "certifi==2020.12.5",
+        "chardet==4.0.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
+        "idna==2.10; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+        "requests==2.25.1",
+        "soupsieve==2.1; python_version >= '3.0'",
+        "urllib3==1.26.2; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4'",
+    ],
     extras_require={
         "dev": [
             "appdirs==1.4.4",
@@ -68,9 +76,7 @@ setup(
             "vistir==0.5.2; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "wheel==0.36.2; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
         ]
-    },  
-    dependency_links=[],
-    project_urls={ 
-        "Source": "https://github.com/erik-tastepe/anarcholib_cli",
     },
+    dependency_links=[],
+    project_urls={"Source": "https://github.com/erik-tastepe/anarcholib_cli",},
 )
