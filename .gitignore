@@ -1,2 +1,5 @@
 # Misc. Python Files
 *.pyc
+
+# IDE Settings
+.vscode/
