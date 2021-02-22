@@ -1,4 +1,4 @@
-# anarcholib cli
+# anlib
 
 ## What is it?
 A command-line application for querying and downloading from the Anarchist Library

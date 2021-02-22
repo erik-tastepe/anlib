@@ -7,7 +7,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="anarcholib_cli",
+    name="anlib",
     version="1.0.0",
     description="A command line application to query and download from the\
         Anarchist Library.",
