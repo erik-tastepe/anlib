@@ -1,5 +1,7 @@
 # Misc. Python Files
 *.pyc
+*.egg
+*.egg-info/
 
 # IDE Settings
 .vscode/

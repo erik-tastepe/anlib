@@ -29,6 +29,7 @@ setup(
     ],
     keywords="anarchism cli",
     packages=find_packages(exclude=["contrib", "docs", "tests"]),
+    entry_points={"console_scripts": ["anlib = anlib.main:main"]},
     python_requires=">=3.5",
     install_requires=[
         "beautifulsoup4==4.9.3",

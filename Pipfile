@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 requests = "*"
 beautifulsoup4 = "*"
+anlib = {editable = true, path = "."}
 
 [dev-packages]
 pytest = "*"
