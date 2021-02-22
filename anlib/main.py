@@ -18,7 +18,6 @@ def get_article(search_term: str):
         'a', class_='list-group-item')]
 
     if len(articles) == 0:
-        print('No results found, try searching for something else.')
         return
 
     return random.choice(articles)
@@ -28,21 +27,21 @@ def handle_article(article: str, file_ext: str, method: str):
     file_path = ''.join((article, file_ext))
 
     if method == 'launch':
-        webbrowser.open(file_path)
-        return
+        return webbrowser.open(file_path)
 
     response = urlopen(file_path)
     dl_file = file_path.split('/')[-1]
     fil = open(dl_file, 'wb')
     fil.write(response.read())
-    fil.close()
+    return fil.close()
 
 
 def main(file_ext: str, method: str, search_term: str):
     if get_article(search_term) is None:
+        print('No results found, try searching for something else.')
         return
 
-    handle_article(get_article(search_term), file_ext, method)
+    return handle_article(get_article(search_term), file_ext, method)
 
 
 if __name__ == '__main__':
