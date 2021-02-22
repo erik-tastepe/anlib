@@ -1,7 +1,11 @@
-# Misc. Python Files
+# Python Files
 *.pyc
 *.egg
+
+# Python Folders
 *.egg-info/
+build/
+dist/
 
 # IDE Settings
 .vscode/
