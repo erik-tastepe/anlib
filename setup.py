@@ -8,7 +8,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="anlib",
-    version="1.0.0",
+    version="1.0",
     description="A command line application to query and download from the\
         Anarchist Library.",
     long_description=long_description,
@@ -17,7 +17,7 @@ setup(
     author="Erik Tastepe",
     author_email="erik.tastepe@tuta.io",
     classifiers=[
-        "Development Status :: 2 - Pre-Alpha",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Science/Research",
         "Topic :: Education",
         "License :: OSI Approved :: MIT License",

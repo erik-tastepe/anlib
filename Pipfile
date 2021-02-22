@@ -13,6 +13,3 @@ pytest = "*"
 pipenv-setup = "*"
 pylint = "*"
 flake8 = "*"
-
-[requires]
-python_version = "3.9"
