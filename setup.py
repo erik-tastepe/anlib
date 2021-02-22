@@ -13,9 +13,9 @@ setup(
         Anarchist Library.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/erik-tastepe/anarcholib_cli",
+    url="https://github.com/erik-tastepe/anlib",
     author="Erik Tastepe",
-    author_email="erik.tastepe@gmail.com",
+    author_email="erik.tastepe@tuta.io",
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Intended Audience :: Science/Research",
@@ -88,5 +88,5 @@ setup(
         ]
     },
     dependency_links=[],
-    project_urls={"Source": "https://github.com/erik-tastepe/anarcholib_cli",},
+    project_urls={"Source": "https://github.com/erik-tastepe/anlib",},
 )
