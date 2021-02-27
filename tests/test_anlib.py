@@ -3,7 +3,7 @@ from anlib.main import get_article
 
 
 def test_version():
-    assert __version__ == '1.1'
+    assert __version__ == '1.2'
 
 
 def test_check_results_found():

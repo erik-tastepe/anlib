@@ -2,7 +2,7 @@
 
 ## What is it?
 
-A command-line application for querying and downloading books/articles from the [Anarchist Library](theanarchistlibrary.org).
+A command-line application for querying and downloading books/articles from the Anarchist Library.
 
 ## How do I download it?
 
