@@ -26,10 +26,12 @@ The reading material launches by default in your default browser. If you would i
 anlib <search-term> -m download
 ```
 
-Additionally, it launches or downloads a .html file by default; if you would instead like to use a .pdf, pass the `-e` flag.
+Additionally, it launches or downloads a `.html` file by default; if you would instead like to use a `.pdf`, pass the `-e` flag.
 
 ```shell
 anlib <search-term> -e .pdf
 ```
+
+## I have suggestions
 
 The application is very much still in the beta phase. If you have any suggestions or run into any issues, please feel free to open an issue or contact me!
